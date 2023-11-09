@@ -1,7 +1,6 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-// console.log(galleryItems);
 const galleryEl = document.querySelector(".gallery");
 const galleryMarkup = createGalleryItemsMarkup(galleryItems);
 
@@ -51,5 +50,5 @@ function createGalleryItemsMarkup(items) {
    </a>
  </li>`;
     })
-    .join(" ");
+    .join("");
 }
